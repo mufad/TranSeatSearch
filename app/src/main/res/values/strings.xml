@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TranSeat Search</string>
+    <string name="title_activity_home">TranSeat Search</string>
+    <string name="bottom_sheet_peek">Nearby Buses</string>
+    <string name="bottom_sheet_content">content</string>
+    <string name="action_click_me">Alif Paribahan</string>
+</resources>

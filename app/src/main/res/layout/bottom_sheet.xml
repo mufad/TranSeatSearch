@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="80dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="@string/bottom_sheet_peek"
+        android:textColor="@android:color/white" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        app:cardElevation="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/openNewAct"
+            android:layout_margin="3dp"
+            android:textColor="@android:color/white"
+            android:text="@string/action_click_me"
+            android:theme="@style/PrimaryButton" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dummy1"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/openNewAct"
+            android:layout_margin="3dp"
+            android:text="Himachol"
+            android:theme="@style/PrimaryButton" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dummy2"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/dummy1"
+            android:layout_margin="3dp"
+            android:text="Dewan Paribahan"
+            android:theme="@style/PrimaryButton" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dummy3"
+            android:layout_margin="3dp"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/dummy2"
+            android:text="6 number"
+            android:theme="@style/PrimaryButton" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

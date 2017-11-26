@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "251304711542",
+    "firebase_url": "https://cse360-503c0.firebaseio.com",
+    "project_id": "cse360-503c0",
+    "storage_bucket": "cse360-503c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251304711542:android:d8e6f978d503e76e",
+        "android_client_info": {
+          "package_name": "com.droiddigger.transeatsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251304711542-tprkg9r97qn8tiftp93n16qko4hfnkdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfQrzIsiHYPrI0Jd-Sq6T81M5HlxT6TRk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
